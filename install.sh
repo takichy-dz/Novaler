@@ -4,7 +4,7 @@ EMUSCRIPT='/usr/script/cam'
 TEMPATH='/var/volatile/tmp'
 set -e
 echo "############ DOWNLOADING FILES #############"
-wget -q "https://raw.githubusercontent.com/takichy-dz/Novaler/update-backup-PurE2/update_backup_pure2_takichy.tar.gz"
+wget -q "https://raw.githubusercontent.com/takichy-dz/Novaler/update-backup-PurE2/update_backup_pure2_takichy.tar.gz"
 echo "############ Updaiting_Backup_PurE2_by_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
