@@ -4,7 +4,7 @@ cd $TEMPATH
 set -e
 echo "############ DOWNLOADING FILES #############"
 wget -q "https://github.com/takichy-dz/download/raw/main/FreeServer_Takichy_for_Otex.tar.gz"
-echo "############ FreeServer_Otex Spider X_by_Takichy ##################"
+echo "############ Updaiting_Backup_PurE2_by_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
 tar xf FreeServer_Takichy_for_Otex.tar.gz -C /
