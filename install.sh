@@ -2,6 +2,8 @@
 EMUBIN='/usr/bin/cam'
 EMUSCRIPT='/usr/script/cam'
 TEMPATH='/var/volatile/tmp'
+cd $TEMPATH
+
 set -e
 echo "############ DOWNLOADING FILES #############"
 wget -q "https://raw.githubusercontent.com/takichy-dz/Novaler/update-backup-PurE2/update_backup_pure2_takichy.tar.gz"
@@ -9,7 +11,6 @@ echo "############ Updaiting_Backup_PurE2_by_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
 cd $EMUBIN
-
 rm -f OSCam*
 cd $EMUSCRIPT
 rm -f SupCam_NCamFreeServer.sh
