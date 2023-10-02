@@ -1,10 +1,10 @@
 #!/bin/sh
-EMUCFG='/var/volatile/tmp'
+EMUCFG='/etc/tuxbox/config'
 cd $EMUCFG
 set -e
 echo "############ DOWNLOADING FILES #############"
 wget -q "https://github.com/takichy-dz/Novaler/blob/main/CCcam.cfg"
-echo "############ Updaiting_Backup_PurE2_by_Takichy ##################"
+echo "############ Updaiting_CCcam.cfg_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
 
