@@ -17,7 +17,7 @@ echo "############ INSTALLATION COMPLETED ####################"
 echo "         OSCAM compiled by : Mohamed_Os                  "
 echo "  Free CCcam Collected by Takichy for your Novaler " 
 echo "                         Enjoy                           "
-echo "############ ...RESTARTING... ###########################" 
+echo "############ ...RESTARTING.enigma2.. ####################" 
 killall -9 enigma2
 
 exit 0
