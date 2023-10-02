@@ -3,7 +3,7 @@ EMUCFG='/etc/tuxbox/config'
 cd $EMUCFG
 set -e
 echo "############ DOWNLOADING FILES #############"
-wget -q "https://github.com/takichy-dz/Novaler/blob/main/CCcam.cfg"
+wget -q "https://raw.githubusercontent.com/takichy-dz/Novaler/main/CCcam.cfg"
 echo "############ Updaiting_CCcam.cfg_Takichy ##################"
 echo "############ INSTALLATION STARTED ##########"
 
