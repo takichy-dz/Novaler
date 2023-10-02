@@ -18,4 +18,3 @@ echo "############ ...RESTARTING... ###########################"
 killall -9 enigma2
 
 exit 0
-
