@@ -2,7 +2,7 @@
 EMUCFG='/etc/tuxbox/config'
 cd $EMUCFG
 if [ -e /etc/tuxbox/config/CCcam.cfg ]; then
-    rm -rf etc/tuxbox/config/CCcam.cfg
+    rm -rf /etc/tuxbox/config/CCcam.cfg
 fi
 set -e
 echo "############ DOWNLOADING FILES #############"
